@@ -1,0 +1,50 @@
+html{
+    background-image: url(back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1,h2{
+    color: #f8d0cb;
+    text-align: center;
+    font-weight: bold;
+}
+a:hover{
+    color:red;
+}
+p{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #f8d0cb;
+}
+body{
+    text-align: center;
+}
+.imgtext{
+    size:30px;
+    margin-left: 10px;
+}
+.inlineblock{
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    margin-right: 60px;
+    margin-left: 10px;
+    text-align: center;
+}
+.imgblock{
+    size:90%;   
+}
+.loginbut{
+    display:flex;
+    justify-content: right;
+    align-items: right;
+    min-height: 25px;
+    min-width: 25px;
+}
+.loginbut .login{
+    background-color: rgb(255, 255, 255,0.7);
+    backdrop-filter:blur(0.4);
+    border-radius: 5px;
+}
